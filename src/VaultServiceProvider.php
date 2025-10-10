@@ -2,9 +2,9 @@
 
 namespace Amorim\Vault;
 
+use Amorim\Vault\Commands\VaultCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Amorim\Vault\Commands\VaultCommand;
 
 class VaultServiceProvider extends PackageServiceProvider
 {

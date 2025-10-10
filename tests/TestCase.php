@@ -2,9 +2,9 @@
 
 namespace Amorim\Vault\Tests;
 
+use Amorim\Vault\VaultServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Amorim\Vault\VaultServiceProvider;
 
 class TestCase extends Orchestra
 {
